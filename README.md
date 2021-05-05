@@ -1,5 +1,5 @@
-# template-engine
-A lousy excuse for a templating engine. Template Engine is capable of taking expressions enclosed in matching pairs of curly braces and replacing them with data from a provided javascript object. e.g.
+# Ion Engine
+Ion Engine is a lightweight, still experimental templating engine. The Ion templating engine is capable of taking expressions enclosed in matching pairs of curly braces and replacing them with data from a provided javascript object. e.g.
 ```<h1>{title}</h1>``` and in javascript: ```
 {
   title: "Hello, world."
@@ -7,7 +7,7 @@ A lousy excuse for a templating engine. Template Engine is capable of taking exp
 
 Being a "powerful" templating engine, it comes with two helper functions to hopefully make your puny html a little smarter. 
 
-The if statement...
+The if statement for conditional code...
 ```
 <!--HTML-->
 {@if condition}
@@ -18,7 +18,7 @@ The if statement...
 //javascript
 { conditon: true }
 ```
-...and the faulty each statement.
+...and the faulty each statement and looping.
 ```
 <!--HTML-->
 {each item in array}
