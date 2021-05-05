@@ -9,9 +9,9 @@ Being a "powerful" templating engine, it comes with two helper functions to hope
 
 The if statement...
 ```
-HTML:
+<!--HTML-->
 {@if condition}
-  <!-- Some conditional code...-->
+  <!-- some conditional code-->
 {/if}
 ```
 ```
@@ -20,10 +20,20 @@ HTML:
 ```
 ...and the faulty each statement.
 ```
-HTML:
+<!--HTML-->
 {each item in array}
   <li>item</li>
 {/each}
+```
+```
+//javascript
+{ 
+  array: [
+   "Fred",
+   "Dave",
+   "Steve",
+  ],
+}
 ```
 This basically justs returns one ```<li>``` for each item in the provided array.
 
