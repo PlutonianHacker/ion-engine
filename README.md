@@ -7,7 +7,7 @@ Ion Engine is a lightweight, still experimental templating engine. The Ion templ
 
 Being a "powerful" templating engine, it comes with two helper functions to hopefully make your puny html a little smarter. 
 
-##Helper
+## Built-In Helpers
 The if statement for conditional code...
 ```
 <!--HTML-->
