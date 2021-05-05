@@ -9,12 +9,18 @@ Being a "powerful" templating engine, it comes with two helper functions to hope
 
 The if statement...
 ```
+HTML:
 {@if condition}
   <!-- Some conditional code...-->
 {/if}
 ```
+```
+//javascript
+{ conditon: true }
+```
 ...and the faulty each statement.
 ```
+HTML:
 {each item in array}
   <li>item</li>
 {/each}
