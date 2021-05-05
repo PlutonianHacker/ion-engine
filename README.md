@@ -7,12 +7,13 @@ Ion Engine is a lightweight, still experimental templating engine. The Ion templ
 
 Being a "powerful" templating engine, it comes with two helper functions to hopefully make your puny html a little smarter. 
 
+##Helper
 The if statement for conditional code...
 ```
 <!--HTML-->
-{@if condition}
+{if condition}
   <!-- some conditional code-->
-{/if}
+{fi}
 ```
 ```
 //javascript
@@ -23,7 +24,7 @@ The if statement for conditional code...
 <!--HTML-->
 {each item in array}
   <li>item</li>
-{/each}
+{each}
 ```
 ```
 //javascript
